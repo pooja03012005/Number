@@ -4,8 +4,8 @@ public class Number_type {
         if(n==0){
             System.out.print("zero");
         }
-        else{
-            System.out.print("negative");
+        else(n>0){
+            System.out.print("positive");
         }
     
     }
