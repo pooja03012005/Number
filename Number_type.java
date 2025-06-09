@@ -1,13 +1,11 @@
 public class Number_type {
     public static void main(String[] args) {
         int n=10;
-        if(n==0){
-            System.out.print("zero");
+        if(n<0){
+            System.out.print("positive");
         }
-        else if(n<0){
+        else{
             System.out.print("negative");
-        }
-    
+        }    
     }
-
 }
